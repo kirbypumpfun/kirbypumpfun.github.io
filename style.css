@@ -53,8 +53,7 @@ html, body {
 }
 
 .kirby-links img {
-    /* max-height: 150px; */
-    max-width: 70px;
+    width: 100px;
     position: absolute;
 }
 
@@ -86,6 +85,7 @@ html, body {
     font-weight: 400;
     font-style: normal;
     padding: 10px;
+    margin-right: 20px;
 }
 
 .main-section .text-container {
@@ -122,6 +122,10 @@ html, body {
 
 .phone-only {
     display: none;
+}
+
+.retro-loader-button {
+    transform: translateX(-20px)
 }
 
 @media only screen and (max-width: 600px) {
@@ -173,5 +177,9 @@ html, body {
 
     .phone-only {
         display: block !important;
+    }
+
+    .main-section .big-text {
+        margin-right: 0px;
     }
 }
